@@ -1,5 +1,5 @@
 body {
-  color: #333333;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 650px;
   margin: 0 auto;
@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url("../images/Night_sky.jpg");
 }
 
 .main-content {
@@ -14,7 +15,7 @@ body {
 }
 
 footer {
-  color: #888888;
+  color: whitesmoke;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
@@ -23,6 +24,7 @@ footer {
 header {
   margin-top: 16px;
   margin-bottom: 48px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h1 {
@@ -31,7 +33,7 @@ h1 {
 }
 
 header a {
-  color: #888888;
+  color: whitesmoke;
   margin-right: 16px;
   text-decoration: none;
 }
@@ -42,7 +44,8 @@ header a {
 
 input {
   border: 1px solid #cccccc;
-  padding: 6px;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 button {
@@ -51,4 +54,6 @@ button {
   background: #888888;
   color: white;
   padding: 6px;
+  margin-left: 10px;
+  border-radius: 4px;
 }
